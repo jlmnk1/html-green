@@ -1,0 +1,109 @@
+div{
+    border: 1px solid black;
+}
+.background{
+    height: 700px;
+}
+.header{
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+}
+.menu{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.menu_text{
+    margin: 0px 10px 0px 10px;
+}
+.big_header{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.back{
+    margin: 5% 10% 5% 10%;
+}
+.list{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+}
+.list_box{
+    display: flex;
+    border: 1px solid black;
+    height: 80%;
+    align-items: center;
+    width: 24%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.img_box{
+    height: 100%;
+    flex: 1;
+    border-radius: 5px 0px 0px 5px;
+    border-right: 1px solid black;
+}
+.text_box{
+    display: flex;
+    flex: 3;
+    height: 100%;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+}
+.text{
+    font-size: 12px;
+}
+.big_img{
+    height: 280px;
+    border-radius: 30px;
+}
+.trip_list{
+    display: flex;
+    justify-content: space-between;
+}
+.trip_img{
+    height: 200px;
+    margin: 0px 5px 0px 5px;
+    flex: 1; 
+}
+.small_header{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.hotel_img{
+    height: 250px;
+}
+.hotel_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.room_list{
+    width: 23%;
+    margin: 0px 5px 0px 5px;
+}
+.hotel{
+    height: 180px;
+}
+.where{
+    font-size : 13px;
+    margin: 5px 0px 10px 0px;
+}
+.hotel_name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.user_star{
+    display: inline-block;
+    font-size: 13px;
+}
