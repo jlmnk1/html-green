@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.columns1 {
+    background-color: brown;
+    height: 150px;
+    width: 800px;
+}
+
+.columns2 {
+    background-color: tomato;
+    height: 150px;
+    width: 800px;
+}
+
+.columns3 {
+    background-color: aquamarine;
+    width: 150px;
+}
+
+.columns4 {
+    background-color: bisque;
+    height: 150px;
+}
+
+.columns5 {
+    background-color: blueviolet;
+    width: 200px;
+}

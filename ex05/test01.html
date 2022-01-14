@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>인풋태그</title>
+    <style>
+        .m_block {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>input 태그</h1>
+    <hr />
+    <form action="fake_server.html" method="get">
+        <input class="m_block" type="text" placeholder="아이디" name="id" required />
+        <input class="m_block" type="password" placeholder="패스워드" name="pwd" required />
+        <input class="m_block" type="tel" placeholder="전화번호를 - 없이 입력하세요" name="tel" pattern="[0-9]{11}" required />
+        <input class="m_block" type="checkbox" name="male" />
+        <input class="m_block" type="date" name="birth">
+        <input type="submit" value="회원가입" />
+        <input type="button" value="버튼" />
+    </form>
+
+</body>
+
+</html>

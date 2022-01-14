@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .bg_box {
+            width: 500px;
+            height: 300px;
+        }
+
+        .header_box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(240 210 216);
+            height: 100px;
+        }
+
+        .header {
+            font-size: 32px;
+            color: white;
+            font-weight: 800;
+        }
+
+        .list_box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(254 99 71);
+            height: 35px;
+        }
+
+        .list {
+            margin: 5px 10px;
+            color: white;
+            font-size: 15px;
+        }
+
+        .upper_list_box {
+            position: relative;
+
+        }
+
+        .under_list_box {
+            position: absolute;
+            top: 25px;
+        }
+
+        .under_list {
+            font-size: 15px;
+            background-color: rgb(254 99 71);
+            padding: 10px 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg_box">
+        <div class="header_box">
+            <div class="header">
+                🛠 COS 🛠
+            </div>
+        </div>
+        <div class="list_box">
+            <div class="list">Home</div>
+            <div class="list">HTML</div>
+            <div class="list">CSS</div>
+            <div class="list">React</div>
+            <div class="list upper_list_box">
+                Django
+                <div class="under_list_box">
+                    <div class="under_list">Link1</div>
+                    <div class="under_list">Link2</div>
+                    <div class="under_list">Link3</div>
+                </div>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
